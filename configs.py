@@ -2,16 +2,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = int(os.environ.get("API_ID", 26921911))
+    API_HASH = os.environ.get("API_HASH", "d05329c36c0e4b8ffce7dacb3720d481")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "LinkSearchBot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
+    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -1001818830136))
     BOT_USERNAME = os.environ.get("BOT_USERNAME")
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+    BOT_OWNER = int(os.environ.get("5569871088"))
     DATABASE_URL = os.environ.get("DATABASE_URL")
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", -1001824048080)
     ABOUT_BOT_TEXT = """<b>This is Link Search Bot.
     
     
