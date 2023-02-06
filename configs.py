@@ -8,7 +8,7 @@ class Config(object):
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "LinkSearchBot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -1001818830136))
-    BOT_USERNAME = os.environ.get("BOT_USERNAME")
+    BOT_USERNAME = os.environ.get("mdisk_movie_searching_bot")
     BOT_OWNER = int(os.environ.get("5569871088"))
     DATABASE_URL = os.environ.get("DATABASE_URL")
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", -1001824048080)
